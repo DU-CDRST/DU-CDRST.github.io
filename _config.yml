@@ -1,0 +1,13 @@
+name: Ram Krishna Sharma, PhD
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll-sitemap
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+gems:
+  - jekyll-relative-links
+relative_links:
+  enabled:     true
+  collections: true

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<html>
+	<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
+      displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+    //,
+    //displayAlign: "left",
+    //displayIndent: "2em"
+  });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link href="/css/syntax.css" rel="stylesheet">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/blog">Blog</a></li>
+	        		<li><a href="/PhDVivaQuestions">PhD Viva Questions</a></li>
+	        		<li><a href="/SomeTutorials">Some Tutorials</a></li>
+	        		<!-- <li><a href="/PhDVivaQuestions">PhD Viva Questions</a></li> -->
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:ramkrishna.sharma71@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/DU-CDRST/DU-CDRST.github.io">github.com/DU-CDRST</a></li>
+	        		<li><a href="http://jmcglone.com/guides/github-pages/">Reference link</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>

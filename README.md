@@ -1,2 +1,1 @@
-# DU-CDRST.github.io
-General Informations
+# MyLocalWebsite

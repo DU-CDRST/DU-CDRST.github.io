@@ -1,0 +1,52 @@
+---
+layout: post
+title: "Some Tutorial Links"
+date: 2018-05-24
+---
+<!-- ######################################################-->
+<!--		SOME TUTORIALS				   -->
+<!-- ######################################################-->
+<div id="Some Tutorials" class="tabcontentforphysical">
+<H2>Some Turorial Links</H2>
+<ol>
+   <li><a href="/home/ramkrishna/MyLocalWebsite/HTMLTutorialRef.htm">HTML Tutorials</a> </li>
+   <li><a href="/home/ramkrishna/MyLocalWebsite/RootTutorials.htm">ROOT Tutorials</a>	</li>
+   <li><a href="/home/ramkrishna/MyLocalWebsite/ShellScripts.htm">Shell Script</a>	</li>
+   <li><a target="_blank"  href="https://indico.cern.ch/event/555228/">MadGraph Tutorial</a></li>
+   <li><a target="_blank"  href="https://indico.cern.ch/event/559122/">MadGraph Tutorial: CMS </a>	</li>
+   <li><a target="_blank" href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial">MadGraph Tut Twiki</a>	</li>
+   <li><a target="_blank"  href="http://home.fnal.gov/~georgiak/shp/Lecture_Materials/Archive.html">Particle Physics Lectures (FNAL) </a> </li>
+   <li><a href="MachineLearning.htm">Machine Learning</a>	</li>
+   <li><a target="_blank" href="https://docs.google.com/presentation/d/1YIS9OSvuK1dmqPlNoWBNt-rEmYrNeaeYhdqbCh4Lt44/edit#slide=id.g4cf2838c1_03">Google Docs</a> , <a target="_blank" href="/home/ramkrishna/PhD_New_Dir_16July2016/Programming_Tutorial/Git_Tutorial.pdf">Git Tutorial PDF</a>	</li>
+   <li><a href=" "> </a>	</li>
+   <li><a target="_blank" href=" "> </a>	</li>
+</ol>
+
+</div>
+
+
+<!-- ###################################################### -->
+<!--			For Tab thing to work need to include below part -->
+<!-- ###################################################### -->
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent,tabcontentphysical, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+	tabcontentphysical = document.getElementsByClassName("tabcontentforphysical");
+    for (i = 0; i < tabcontentphysical.length; i++) {
+        tabcontentphysical[i].style.display = "none";
+    }
+	for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+<!-- ###################################################### -->
+</BODY>
+</HTML>
