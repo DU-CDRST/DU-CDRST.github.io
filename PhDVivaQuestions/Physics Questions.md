@@ -3,10 +3,6 @@ title: Physics Questions
 tags: test
 ---
 
-[TOC]
-
----
-
 # Basic Particle Physics
 
 1. Why SM is a successful theory?
@@ -24,9 +20,9 @@ tags: test
 1. What will happen if the total number of quaks and total number of leptons are different in the SM?
 2. What do you mean by ***Asympotatic freedom in the quark sector***?
 3. When an atom absorbs a photon - does this changes their spin? why or why not?
-20. **Why do gauge bosons have to be massless to preserve gauge invariance?**
+20. Why do gauge bosons have to be massless to preserve gauge invariance?
 
-1. **Cross-Section**
+1. Cross-Section
 
     - It is one of most important measurement in particle physics.
     - It tell us the probability of interaction of two particles or beam of particles in a given way[^1].
@@ -41,7 +37,7 @@ tags: test
 
 [^1]:Link: https://www.symmetrymagazine.org/article/speak-physics-what-is-a-cross-section
 
-1. **Should cross-section after hadronization / showering change?**
+1. Should cross-section after hadronization / showering change?
 
     <span style="color:blue"> 
     In general, without matching/merging, the cross section after parton shower and hadronization should be equal to the initial cross section. This is a fundamental aspect of what the parton shower represents, namely that in the soft/collinear limit the soft emission or splitting can be factorized from the core matrix element and interpreted as a probability for emission. So, the parton shower and hadronization should not change the cross section but rather tell how it "spreads" to different jet multiplicities. A good reference for more information is the presentation in [^2] . It's a 4 part lecture with video on CDS if you really want to get into the gory details :)
@@ -141,7 +137,7 @@ tags: test
 11. What are the detector components in CMS and their individual resolution? 
 Why?
     
-    ![](https://i.imgur.com/8eku8cS.png)
+    ![](https://i.imgur.com/8eku8cS.png){:height="560px" width="900px"}
 
 12. Why b-quark has large life time?
     
